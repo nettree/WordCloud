@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<title>Word Cloud Demo</title>
+<link href="css/angular-bootstrap.css" rel="stylesheet">
+<style type="text/css">
+[ng\:cloak], [ng-cloak], .ng-cloak {
+	display: none !important;
+}
+</style>
+</head>
+
+<body ng-app="wordcloud">
+	<div class="container">
+		<h3>Please enter an URL which content you want to use to generate a Word Cloud</h3>
+		<div ng-controller="wordcloudController" ng-cloak class="ng-cloak">
+		<form role="form" ng-submit="generateWorldCloud()">
+			<label for="url">URL:</label>
+			<input type="text" name="url" id="url" placeholder="https://www.parashift.com.au/parablog/" style="width: 600px" ng-model="url.value">
+			<button type="submit" class="btn btn-primary">Generate Word Cloud</button><br>
+		</form>
+			<p></p>
+			<p>The generated Word Cloud will be shown below:</p>
+
+			<jqcloud words="words" width="1200" height="500" steps="8" font-size="{from:0.06, to:0.01}"></jqcloud>
+
+		</div>
+	</div>
+	<script src="js/angular-bootstrap.js" type="text/javascript"></script>
+	<script src="js/angular-jqcloud.js"></script>
+	<script src="js/wordcloud.js"></script>
+</body>
+</html>
