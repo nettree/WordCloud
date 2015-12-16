@@ -11,5 +11,5 @@ A single page web application with Spring Boot, AngularJS, Bootstrap in order to
    'java - jar wordcloud-0.0.1-SNAPSHOT.jar'<br>
    then go to http://localhost:8080 to see the result.
 
-# How this applications works
+# How this application works
 At http://localhost:8080, you could see a blank page with some labels, a text field, and a button named as 'Generate Word Cloud', if you want to retrieve web page content directly from https://www.parashift.com.au/parablog/, just click this button, then wait for a second, the result will be shown. Or if you want to try another URL, just paste it into the text field, click button again, the result will be updated according to the new content retrieved from this URL.
