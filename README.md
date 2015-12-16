@@ -2,7 +2,7 @@
 A single page web application with Spring Boot, AngularJS, Bootstrap in order to generate word cloud by using given URL
 
 # How to run this application
-1. If you already get the wordcloud-0.0.1-SNAPSHOT.jar, just run the command:
+1. If you already get the wordcloud-0.0.1-SNAPSHOT.jar, just run the command:\r\n
    'java - jar wordcloud-0.0.1-SNAPSHOT.jar'
    then go to http://localhost:8080 to see the result.
 2. If you want to compile the whole application from scratch, you first need to get all the source code, then run the command: 
