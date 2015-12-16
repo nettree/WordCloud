@@ -1,5 +1,5 @@
 # WordCloud
-A single page web application with Spring Boot, AngularJS, Bootstrap in order to generate word cloud by using given URL
+A single page web application with Java, Maven, Spring Boot, AngularJS, JQCloud, Angular-JQCloud, Bootstrap in order to generate word cloud by using given URL
 
 # Required runtime environment
 Before running application, please install JDK 1.8 and Maven 3.3.x and set the path variables to ensure the correctness of running
