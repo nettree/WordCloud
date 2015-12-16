@@ -5,13 +5,13 @@ A single page web application with Spring Boot, AngularJS, Bootstrap in order to
 Before running application, please install JDK 1.8+ and Maven 3.x first to ensure the correctness of running
 
 # How to run this application
-1. If you already get the wordcloud-0.0.1-SNAPSHOT.jar, just run the command:<br>
-   'java - jar wordcloud-0.0.1-SNAPSHOT.jar'<br>
+1. If you already get the wordcloud-0.0.1-SNAPSHOT.jar, just run the command: 
+   'java - jar wordcloud-0.0.1-SNAPSHOT.jar', 
    then go to http://localhost:8080 to see the result.
-2. If you want to compile the whole application from scratch, you first need to get all the source code, then run the command:<br>
-   'mvn package'<br>
-   under the root folder of project, then you can find the wordcloud-0.0.1-SNAPSHOT.jar in target folder and run it by using command:<br>
-   'java - jar wordcloud-0.0.1-SNAPSHOT.jar'<br>
+2. If you want to compile the whole application from scratch, you first need to get all the source code, then run the command: 
+   'mvn package' 
+   under the root folder of project, then you can find the wordcloud-0.0.1-SNAPSHOT.jar in target folder and run it by using command: 
+   'java - jar wordcloud-0.0.1-SNAPSHOT.jar', 
    then go to http://localhost:8080 to see the result.
 3. If you want to run this application via an IDE, you could use Eclipse to import the existing Maven Project, then right-click the imported project, follow the Run As --> Maven build, input 'spring-boot:run' in Goals field and Run, then go to http://localhost:8080 to see the result.
 
